@@ -1,0 +1,18 @@
+[package]
+name = "blocks"
+version = "0.4.0"
+edition = "2021"
+
+[dependencies]
+macroquad = { version = "0.4", features = ["audio"] }
+
+[profile.dev]
+opt-level = 3
+
+[package.metadata.android]
+assets = "assets/"
+package_name = "org.example.blocks"
+label = "Blocks"
+fullscreen = true
+orientation = "landscape"
+build_targets = ["armv7-linux-androideabi", "aarch64-linux-android"]
