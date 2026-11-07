@@ -14,7 +14,3 @@ Blobs hunt you; kill them for gel. 8 gel + 4 stone crafts a spawner. Lava burns,
 Commands: /help /seed /tp /fly /time /give <block> [n] /gamemode s|c /heal /fov /render
 /spawn /kill /speed /mobs /pos /biome /clear
 
-## Get the APK
-1. Push this folder to a GitHub repo (include the hidden .github folder).
-2. Actions tab -> "Build APK" -> download artifact `blocks-apk`.
-Local: docker run --rm -v "$PWD":/root/src -w /root/src notfl3/cargo-apk cargo quad-apk build
